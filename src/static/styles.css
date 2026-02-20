@@ -61,8 +61,8 @@ section h3 {
   margin-bottom: 15px;
   padding: 15px;
   border: 1px solid #ddd;
-  border-radius: 5px;
-  background-color: #f9f9f9;
+  border-radius: 8px;
+  background: linear-gradient(180deg, #ffffff 0%, #fafbff 100%);
 }
 
 .activity-card h4 {
@@ -141,4 +141,65 @@ footer {
   margin-top: 30px;
   padding: 20px;
   color: #666;
+}
+
+.participants-section {
+  margin-top: 12px;
+  padding: 10px 12px;
+  border: 1px solid #dfe3ff;
+  background-color: #f3f5ff;
+  border-radius: 6px;
+}
+
+.participants-title {
+  margin-bottom: 6px;
+  color: #1a237e;
+}
+
+.participants-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.participant-item {
+  margin: 6px 0;
+  color: #2f3b52;
+  padding: 6px 8px;
+  border: 1px solid #e0e7ff;
+  background-color: #ffffff;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.participant-email {
+  word-break: break-word;
+}
+
+.remove-participant-btn {
+  border: none;
+  background-color: #ffe9ec;
+  color: #b42318;
+  width: 24px;
+  height: 24px;
+  min-width: 24px;
+  border-radius: 999px;
+  font-size: 14px;
+  line-height: 1;
+  padding: 0;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.remove-participant-btn:hover {
+  background-color: #ffd5dc;
+}
+
+.no-participants {
+  margin: 0;
+  color: #6b7280;
+  font-style: italic;
 }
